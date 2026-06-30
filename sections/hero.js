@@ -6,7 +6,7 @@ function renderHero() {
 
         <div class="hero-cat">
           <img
-            src="assets/images/cat-placeholder.png"
+            src="assets/images/messenger-cat.png"
             alt="JB&C Cat"
           >
         </div>
