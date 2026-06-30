@@ -1,5 +1,24 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const app = document.getElementById("app");
+document.addEventListener("DOMContentLoaded", async () => {
 
-  app.innerHTML = renderHero();
+    const app = document.getElementById("app");
+
+    app.innerHTML = renderHero();
+
+    try {
+
+        const guests = await getGuests();
+
+        console.log("Guests Loaded:", guests);
+
+        await sleep(2500);
+
+        // Scene 2 will start here
+        console.log("Proceed to Scene 2");
+
+    } catch (error) {
+
+        console.error(error);
+
+    }
+
 });

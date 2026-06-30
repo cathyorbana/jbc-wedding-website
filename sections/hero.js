@@ -1,29 +1,20 @@
 function renderHero() {
   return `
-    <section class="hero">
+    <section class="scene1">
 
-      <div class="hero-content">
+        <div class="scene1-content">
 
-        <div class="hero-cat">
-          <img
-            src="assets/images/messenger-cat.png"
-            alt="JB&C Cat"
-          >
+            <img
+                class="messenger-cat"
+                src="assets/images/messenger-cat.png"
+                alt="Messenger Cat"
+            >
+
+            <p class="scene1-message">
+                Our little messenger is looking for your invitation<span class="loading-dots"></span>
+            </p>
+
         </div>
-
-        <h1 class="hero-title">
-          JB & Catherine
-        </h1>
-
-        <p class="hero-subtitle">
-          Welcome to our wedding website
-        </p>
-
-        <button id="beginBtn" class="primary-button">
-          Begin
-        </button>
-
-      </div>
 
     </section>
   `;
