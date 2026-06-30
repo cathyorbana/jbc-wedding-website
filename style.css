@@ -1,18 +1,4 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-body{
-
-    background:#F8F5EF;
-    color:#4D4D4D;
-    font-family:Georgia, serif;
-
-}
-
-.scene1{
+.scene2{
 
     min-height:100vh;
 
@@ -20,45 +6,44 @@ body{
     justify-content:center;
     align-items:center;
 
+    background:#F8F5EF;
+
     padding:40px;
 
 }
 
-.scene1-content{
+.scene2-card{
+
+    max-width:700px;
 
     text-align:center;
-    max-width:420px;
 
 }
 
-.messenger-cat{
+.scene-label{
 
-    width:240px;
+    letter-spacing:6px;
+
+    font-size:14px;
+
+    margin-bottom:24px;
+
+}
+
+.scene-title{
+
+    font-size:72px;
+
     margin-bottom:32px;
 
 }
 
-.scene1-message{
+.scene-description{
 
     font-size:24px;
+
     line-height:1.8;
 
-}
-
-.loading-dots::after{
-
-    content:"";
-
-    animation:dots 1.5s infinite;
-
-}
-
-@keyframes dots{
-
-    0%{content:"";}
-    25%{content:".";}
-    50%{content:"..";}
-    75%{content:"...";}
-    100%{content:"";}
+    margin-bottom:48px;
 
 }

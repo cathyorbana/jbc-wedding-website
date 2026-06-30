@@ -6,14 +6,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     try {
 
-        const guests = await getGuests();
+        await getGuests();
 
-        console.log("Guests Loaded:", guests);
+        await sleep(2000);
 
-        await sleep(2500);
-
-        // Scene 2 will start here
-        console.log("Proceed to Scene 2");
+        app.innerHTML = renderScene2();
 
     } catch (error) {
 
