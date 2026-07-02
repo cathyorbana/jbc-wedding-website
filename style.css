@@ -103,19 +103,18 @@ body{
 
     position:absolute;
 
-    right:-145px;
+    width:250px;
+    height:250px;
 
-    bottom:-85px;
+    right:-70px;
+    bottom:-5px;
 
-    width:340px;
+    background:url("assets/images/tail.png") no-repeat center;
+    background-size:contain;
 
-    height:420px;
-
-    background:url("assets/images/tail.png") center/contain no-repeat;
+    z-index:-1;
 
     animation:tailSway 4s ease-in-out infinite;
-
-    pointer-events:none;
 
 }
 
@@ -245,13 +244,13 @@ body{
 
     0%,100%{
 
-        transform:rotate(-6deg);
+        transform:rotate(-4deg);
 
     }
 
     50%{
 
-        transform:rotate(6deg);
+        transform:rotate(4deg);
 
     }
 
