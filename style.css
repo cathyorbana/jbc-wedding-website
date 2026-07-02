@@ -33,11 +33,10 @@ body{
 }
 
 .hero-header{
-
     text-align:center;
-
     margin-bottom:70px;
 
+    transform:translateY(-35px);
 }
 
 .hero-header h1{
@@ -99,10 +98,15 @@ body{
 
 .cat-tail{
     position:absolute;
-    width:240px;
-    right:-70px;
-    bottom:28px;
+
+    width:280px;
+
+    right:-100px;
+
+    bottom:90px;
+
     z-index:1;
+
     pointer-events:none;
 }
 
